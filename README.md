@@ -44,3 +44,5 @@ The reason for failure is that the second image uses a different ignore file, wh
 * The same thing happens for ignore files as well. Right now the two ignore files are different by 1 byte (one `\n`).
   If they are the same size, when building the second image it will actually use both the first dockerfile and the first ignore file,
   resulting in an image that is identical to the first image.
+  
+ * See also [this alternative demonstration](https://github.com/michielbdejong/codespaces-weirdness/blob/main/README.md#codespaces-weirdness) that has some additional info.
